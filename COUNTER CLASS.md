@@ -26,10 +26,32 @@ To write a Python program to create a `Counter` class that can increment the val
 ### PROGRAM
 
 ```
-
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def info(self):
+        print(f"I am a cat. My name is {self.name}. I am {self.age} years old.")
+    def make_sound(self):
+        print("Meow")
+class Cow:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def info(self):
+        print(f"I am a Cow. My name is {self.name}. I am {self.age} years old.")
+    def make_sound(self):
+        print("Moo")
+cat1 = Cat("Kitty", 2.5)
+cow1 = Cow("Fluffy", 4)
+for animal in (cat1, cow1):
+    animal.make_sound()
+    animal.info()
+    animal.make_sound()
 ```
 
 ### OUTPUT
-
+<img width="801" height="264" alt="{6E9476EC-56EE-4DD2-BD08-0930AFC42893}" src="https://github.com/user-attachments/assets/c9fcfcb9-69f4-4dd8-93fd-cac606c0f957" />
 
 ### RESULT
+Thus, the python code is written and executed successfully
