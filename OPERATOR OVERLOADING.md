@@ -32,11 +32,13 @@ To write a Python program to perform division of two complex numbers using the b
 ### PROGRAM
 
 ```
+Thus, the python code is written and executed successfully.
 
 ```
 
 ### OUTPUT
+<img width="816" height="207" alt="{59AE5902-A128-4221-BA92-A6429888381B}" src="https://github.com/user-attachments/assets/ae8cc876-0b27-4dc7-920a-1a723c606baf" />
 
 
 ### RESULT
-
+Thus, the python code is written and execcuted successfully.
