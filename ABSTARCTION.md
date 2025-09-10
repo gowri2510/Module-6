@@ -34,11 +34,40 @@ To write a Python program to define the abstract base class named `Polygon` and 
 ### PROGRAM
 
 ```
+from abc import ABC  
+class Polygon(ABC):   
+   def sides(self):   
+      pass  
+  
+class Triangle(Polygon):   
+    def sides(self):   
+      print("Triangle has 3 sides")   
+  
+class Pentagon(Polygon):   
+    def sides(self):   
+      print("Pentagon has 5 sides") 
 
+class Hexagon(Polygon):   
+    def sides(self):   
+      print("Hexagon has 6 sides") 
+
+class square(Polygon):   
+    def sides(self):   
+        print("I have 4 sides")   
+  
+t = Triangle()   
+t.sides()
+s = square()   
+s.sides()
+p = Pentagon()   
+p.sides() 
+k = Hexagon()   
+k.sides()
 
 ```
 
 ### OUTPUT
-
+<img width="768" height="296" alt="{D4435F85-CE94-4C5F-92CE-E9B69074A2EF}" src="https://github.com/user-attachments/assets/c22e2a27-4c54-431c-89e2-8e69516d00cf" />
 
 ### RESULT
+Thus, the python code is written and executed successfully.
