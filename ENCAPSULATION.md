@@ -26,14 +26,21 @@ To write a Python program to create a class `Student` with the private members `
 ### PROGRAM
 
 ```
-
-
-
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+    def show(self):
+        print("Name: ", self.name, "Salary:", self.salary)
+emp = Employee('Jessa', 10000)
+print("Name: ", emp.name, 'Salary:', emp.salary)
+emp.show()
 ```
 
 ### OUTPUT
+<img width="817" height="268" alt="{1769CD04-2114-40EC-B285-3FE60EF39AEC}" src="https://github.com/user-attachments/assets/8946e720-858f-4874-ac08-a77c79c3ceae" />
 
 
 ### RESULT
-
+Thus, the python code is written and executed successfully.
 
